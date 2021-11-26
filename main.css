@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Worksans;
+    src: url("fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+body{
+    margin: 0;
+    color: #fff;
+    font-family: Worksans, sans-serif;
+    font-size: 32px;
+    width: 364px;
+}
+
+.calc{
+    background-color: #17171C;
+}
+
+.calc__container{
+    padding: 25px 20px;
+}
+
+
+#result{
+    font-size: 96px;
+    text-align: right;
+}
+
+.calc__btns{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+
+.btn{
+    margin: 8px;
+    background-color: #2E2F38;
+    border-radius: 24px;
+    width: 69px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#delet{
+    width: 153.33px;
+    background-color: #4E505F;
+}
+
+.operand, #equals{
+    background-color: #4B5EFC;
+}
+
+.null{
+    width: 238.33px;
+}

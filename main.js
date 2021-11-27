@@ -25,10 +25,8 @@ for (var i = 0; i < btns.length; i++) {
         if (isValidResultLength){
             result.innerText += number;
         }
-
-    };
+    }
 }
-
 
 for (var i = 0; i < operands.length; i++) {
     operands[i].onclick = function () {
@@ -62,7 +60,6 @@ function calc(operand) {
         default:
             return 'error';
     }
-
 }
 
 delet.onclick = function () {
@@ -73,9 +70,9 @@ delet.onclick = function () {
 }
 
 backspace.onclick = function deleteLastSymbol(event) {
-    const noResult = (result.innerText == 0)
+    const resultZero = (result.innerText == 0)
     const resultLengthOne =  (result.innerText.length == 1)
-    if (noResult) {
+    if (resultZero) {
         return;
     } else if (resultLengthOne) {
         changeResult(0) ;

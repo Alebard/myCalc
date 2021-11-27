@@ -56,3 +56,7 @@ body{
 .null{
     width: 238.33px;
 }
+
+.btn:hover{
+    filter: brightness(150%);
+}
